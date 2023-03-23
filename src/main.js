@@ -37,7 +37,6 @@ function pintar(data){
   document.getElementById('contieneTodosLosPokemones').innerHTML = todos;
 }
 pintar(pokemones);
-
 //Ordenar pokemon de la (A-Z)&(Z-A)
 document.getElementById("ordenar").addEventListener("change", (event) => {
   //console.log("veamos el evento", event.target.value);
