@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Lovers</title>
+    <link rel="icon" type="image.icon" href="img/faviconPokebola.png">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header id="headerHtml">
+      <img id="imgNavBar" src="img/pokemon-logo.gif" alt="Logo de pokemon">
+                <nav id="header">
+                  <label for="ordenar" class="label">ORDENAR: </label>
+                  <select class="botones" name="ordenar" id="ordenar">                  
+                        <option value="TODOS" id="todos">TODOS</option>
+                        <option value="A-Z" id="A-Z">A-Z</option>
+                        <option value="Z-A" id="Z-A">Z-A</option>                     
+                  </select>
+
+                  <label for="tipo" class="label">TIPO: </label>
+                  <select class="botones" name="tipo" id="tipo">
+                      <option value="steel">ACERO</option>
+                      <option value="water">AGUA</option>
+                      <option value="bug">BICHO</option>
+                      <option value="dragon">DRAGON</option>
+                      <option value="electric">ELÉCTRICO</option>
+                      <option value="ghost">FANTASMA</option>
+                      <option value="fire">FUEGO</option>
+                      <option value="fairy">HADA</option>
+                      <option value="ice">HIELO</option>
+                      <option value="fighting">LUCHA</option>
+                      <option value="normal">NORMAL</option>
+                      <option value="grass">PLANTA</option>
+                      <option value="psychic">PSÍQUICO</option>
+                      <option value="rock">ROCA</option>
+                      <option value="dark">SINIESTRO</option>
+                      <option value="ground">TIERRA</option>
+                      <option value="poison">VENENO</option>
+                      <option value="flying">VOLADOR</option>
+                  </select>
+            <!--WAI-ARIA -->
+            <input class="buscador" id="searchPokemones" type="search" autocomplete="off" name="buscandoPokemones" aria-label="Search through site content" size="27" placeholder="Ingrese el nombre del Pokemón...">
+              <input id="buscar" type="button" value="Buscar"/>   
+              <p id="textoCalc">Mostrando el  <span id="ponerValor">  </span> de los pokemones. </p>   
+            </nav>
+    </header>
+      <main>
+        <section id="section0" class="s0">
+          <table style="text-align: center;">
+            <tr>
+              <td><img id="logoVista1" src="img/pokemon-logo.gif" alt="Logo vista1"></td>
+            </tr>
+            <tr>
+              <td><h1 id="letra"> Bienvenido(a) al mundo mágico de los pokemones, esperemos que disfrutes de esta nueva <em>POKEDEX</em> hecha para ti.</h1></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" id="empezar" value="Empezar">
+              </td>
+            </tr>
+        </table>
+          </section>
+          <section id="contieneTodosLosPokemones" style="display: none;" >
+          </section>  
+      
+          <article id="gifPokebolas">
+            <img src="img/pikachu-imagen-animada-0027.gif" id="imagenGif" alt="Imagen animada">
+          </article>
+    
+      </main>
+      
+      <footer>
+        <article id="contenedorFooter">
+        <p>Proyecto3-DataLovers, por Diana Quispe y Yahaira Perez para Laboratoria-2023</p>
+        </article>
+      </footer>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
