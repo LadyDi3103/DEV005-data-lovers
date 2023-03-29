@@ -1,9 +1,7 @@
 ![Imagen del header](./src/img/headerImg.png)
 
 # DATA LOVERS ("POKEDEX")
-
 ---
-
 ## Índice
 
 * [Descripción del Proyecto](Descripción-del-proyecto)
@@ -78,7 +76,6 @@ Usamos Figma como herramienta de diseño visual.
 ![vista6Figma](https://github.com/LadyDi3103/DEV005-data-lovers/blob/main/src/img/figmaImg6.png?raw=true)
 
 ### Responsive
-
 #### Smartphone
 
 ![pokemon-logo.gif](https://github.com/LadyDi3103/DEV005-data-lovers/blob/main/src/img/mobile%20(1).png?raw=true)
