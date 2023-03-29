@@ -91,4 +91,4 @@ Usamos Figma como herramienta de diseño visual.
 
 #### [Link de Figma:](https://www.figma.com/file/pt6yJwDvdJsEKaHKqG4DkH/Data-Lovers?node-id=0-1&t=8dtdEZM24kI5VPFh-0)
 
-#### GitHub-Pages Deploy
+#### [GitHub-Pages Deploy:](https://ladydi3103.github.io/DEV005-data-lovers)
